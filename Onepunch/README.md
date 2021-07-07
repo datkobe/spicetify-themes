@@ -1,26 +1,46 @@
 # Onepunch
+
 ## Screenshots
-![Home](./__Home.png)
-![Profile](./__Profile.png)
-![Playlist](./__Playlist.png)
+
+#### Dark
+
+|   ![dark_home](./screenshots/dark_home.png)   |   ![dark_album](./screenshots/dark_album.png)   | ![dark_playlist](./screenshots/dark_playlist.png) |
+| :-------------------------------------------: | :---------------------------------------------: | :-----------------------------------------------: |
+|                     home                      |                      album                      |                     playlist                      |
+| ![dark_podcast](screenshots/dark_podcast.png) | ![dark_profile](./screenshots/dark_profile.png) |
+|                    podcat                     |                     profile                     |
+
+#### Light
+
+|   ![light_home](./screenshots/light_home.png)   |   ![light_album](./screenshots/light_album.png)   | ![light_playlist](./screenshots/light_playlist.png) |
+| :---------------------------------------------: | :-----------------------------------------------: | :-------------------------------------------------: |
+|                      home                       |                       album                       |                      playlist                       |
+| ![light_podcast](screenshots/light_podcast.png) | ![light_profile](./screenshots/light_profile.png) |
+|                     podcat                      |                      profile                      |
 
 ## More
 
-#### About
-A simple gruvified spotify theme. 
+### About
 
-#### First Aid Kit  ¯\\_(ツ)\_/¯
+A simple gruvified spotify theme.
 
-- Tested on macOS only and pretty much everything worked. 
-- Just in case, if the icons/fonts doesn't change or broke(mostly for other untested platforms), then try to replace the `spoticon_xxx` font file in your `glue-resources` folder with this [spoticon_xxx](./assets/glue-resources/fonts/spoticon_cb67241fb50eae02396ee4647eb9a2e6.ttf) font file. 
-- In macOS it is `/Applications/Spotify.app/Contents/Resources/Apps/glue-resources/` I'm sure you can find your's ﾍ(･_|
+### Information
 
-#### On my list
-- [x] Gruvified that old Onepunch theme.
-- [x] Changed almost not a few icons.
-- [ ] Fix a few minor layout mismatch.
-- [ ] Modify a lot of icons.
-- [ ] Watch anime. 〜〜(／￣▽)／　〜ф
+*   To apply this theme:
 
-#### Contact
-Go **[here](https://github.com/okarin001/Onepunch/issues)** and _check/create_ an issue in case you face any probelm. 
+    ```shell
+    # for dark theme
+    spicetify config current_theme Onepunch color_scheme dark
+    spicetify apply
+
+    #for light theme
+    spicetify config current_theme Onepunch color_scheme light
+    spicetify apply
+
+    ```
+
+*   Tested on macOS only and pretty much everything worked. ﾍ(･\_|
+
+### Contact
+
+Go **[here](https://github.com/okarin001/Onepunch/issues)** and *check/create* an issue in case you face any probelm.
